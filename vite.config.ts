@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/mjml-react-test/',        // must match your repo name
+  base: '/React-grapesjs-mjml/',        // must match your repo name
   build: { outDir: 'dist', target: 'esnext' },
 });
